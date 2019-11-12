@@ -1,11 +1,14 @@
 Package: KRS
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Manipulates a dataset on growth rate of trees in the serengeti savanna ecosystem
 Version: 0.1.0
 Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Maintainer: The package maintainer <2500712m@student.gla.ac.uk>
+Description: Manipulates a dataset on the effects of elephant damage on the tree growth rate. 
+             It mainly explores the dataset to see how elephant damage has impact on the growth
+             of trees. It also looks at how abiotic and biotic factors affect the growth rate of trees 
+             directly and how these factors modify the effect of elephants damage. 
+    
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
