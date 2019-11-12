@@ -1,6 +1,7 @@
 #' Growth rate of trees in the serengeti savannah ecosystem
 #'
-#' A dataset containing information on elephant damage and other 8 attributes which have impact on the growth rate of trees in the serengeti savannah ecosystem
+#' A dataset containing information on elephant damage and other 8 attributes which have impact on the growth rate of trees
+#' in the serengeti savannah ecosystem.
 #'
 #' @format A data frame with 435 rows and 9 variables:
 #' \describe{
