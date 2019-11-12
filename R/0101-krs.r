@@ -93,3 +93,14 @@ ggplot(elephant.damage, aes(x=RAIN, y=DBH_growth_cm)) +
 ggplot(elephant.damage, aes(x=SITE, y=DBH_growth_cm)) +
   geom_boxplot() +
   theme_bw()
+
+# a plot of tree growth rate against livestock grazing
+ggplot(elephant.damage, aes(x=LivestockArea, y=DBH_growth_cm)) +
+  geom_boxplot() +
+  theme_bw()
+# a plot of tree growth rate against distance from the nearest village
+ggplot(elephant.damage, aes(x=kmToVill, y=DBH_growth_cm)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  theme_bw()
+
