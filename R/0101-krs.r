@@ -1,13 +1,14 @@
 #' ---
-#' title: effect of anthropogenic & abiotic factors and elephant damage on the growth rate of trees
+#' title: Effect of elephant damage, biotic & abiotic factors on the growth rate of trees in Serengeti
 #' author: "Charles Msonge"
 #' date: November 2019
 #' file: "htl_document"
 #' ---
 #'
-#' this script is about manipulating the elephant damage tree dataset
-#' inorder to see the effect of various explanatory variables such as
+#' This script is about manipulating the elephant damage on tree dataset
+#' inorder to see the effect of various attributes such as
 #' fire, rainfall, site, elephant damage, etc on the growth rate of trees
+#' in the serengeti savannah ecosystem.
 #'
 #' Setting up the script
 #' =====================
@@ -35,7 +36,6 @@ attach(elephant.damage) #attaches the dataframe in R studio
 # changing the fire variable into a factor
 elephant.damage$Fire <- as.factor(elephant.damage$Fire)
 
-# TREE_ID <- Factor with 435 levels (categorical variable)
 
 #' Explanatory Variable
 #' ====================
