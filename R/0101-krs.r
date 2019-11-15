@@ -249,5 +249,4 @@ logLik(model13)
 #' and fixed effects, I came to a preliminary conclusion that the best fit model to this point
 #' is model13.
 #'
-#' model13 <- glm(DBH_growth_cm~Ele_damage + Fire +
-#' Ele_damage*SITE, family = gaussian)
+#' model13 <- glm(DBH_growth_cm~Ele_damage + Fire + Ele_damage*SITE, family = gaussian)
